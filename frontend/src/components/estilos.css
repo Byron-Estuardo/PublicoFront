@@ -1,0 +1,207 @@
+.General {
+    background: #9fb8ad;
+    background: -webkit-linear-gradient(to right, #191e3a, #103827);
+    background: linear-gradient(to right, #191e3a, #103827);
+    min-height: 100vh;
+}
+
+.GeneralLogin {
+    background: linear-gradient(150deg, rgb(8, 69, 85), rgb(36, 35, 35), rgb(1, 49, 71));
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    min-height: 100vh;
+}
+
+
+.Error {
+    background: linear-gradient(150deg, rgb(8, 69, 85), rgb(73, 21, 21), rgb(77, 41, 1));
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    min-height: 100vh;
+}
+
+#FondoRegistro1{
+    text-align: justify;
+}
+
+.GeneralAdmin {
+    background: #9fb8ad;
+    background: -webkit-linear-gradient(to right, #191e3a, #103827);
+    background: linear-gradient(to right, #0e101f, #0b3449);
+    min-height: 100vh;
+}
+
+@keyframes BgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.FondoLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+#IniciarLogin {
+    background-color: transparent;
+    border: none;
+}
+
+#CrearUsuario {
+    min-height: 100vh;
+    border: none;
+    background-color: transparent;
+}
+
+.Datos {
+    align-items: center;
+    font-size: 20px;
+    width: 30%;
+}
+
+.Alerta {
+    visibility: hidden;
+    font-size: 30px;
+}
+
+
+.Solicitudes {
+    background: linear-gradient(150deg, rgb(8, 69, 85), rgb(36, 35, 35), rgb(1, 49, 71));
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    min-height: 100vh;
+}
+
+.Fondo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.Tabla {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.interno {
+    width: 100%;
+}
+
+
+.Bajas {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.internoB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.seccion {
+    margin-bottom: 2rem;
+}
+
+.seccionUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.select-usuario {
+    width: 300px;
+}
+
+.input-motivo {
+    width: 300px;
+}
+
+.btn-aceptar {
+    margin-right: 1rem;
+}
+
+.btn-cancelar {
+    margin-left: 1rem;
+}
+
+.music-player-modal {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.music-player-content {
+    padding: 0 !important;
+    max-height: 10% !important;
+}
+
+.music-player-content div {
+    height: 50px !important;
+}
+
+
+.top-nombres {
+    background: linear-gradient(150deg, rgb(109, 204, 196), rgb(125, 130, 192), rgb(104, 173, 121));
+    background-size: 400% 300%;
+    animation: BgGradient 10s ease infinite; 
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.top-nombres-title {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.top-nombres-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nombres-list li {
+    background-color: #fff;
+    border: none  ;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.top3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+}
